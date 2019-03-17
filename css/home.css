@@ -1,45 +1,29 @@
-/* .navbar {
+#home {
+  min-height:100vh;
+  background: linear-gradient(to right,  rgba(0, 0, 0, 0.67), transparent, rgba(0, 0, 0, 0.67)),
+  url("../images/galaxy2-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-container {
     display: flex;
-    background-color: lightpink;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    background-color: lightblue;
 }
 
-.navbar__logo {
-    background-color: lightgreen;
-}
 
-.navbar__toggle {
-    display: none;
-}
 
-.navbar__list {
+
+.home__social {
     display: flex;
-    background-color: red;
+    background-color: #fff;
 }
-
-
-
-
-@media (max-width: 768px) {
-  
-    .navbar {
-       flex-direction: column; 
-       background-color: lightpink;
-    }
-
-    .navbar__toggle {
-        display: initial;
-        cursor: pointer;
-        position: absolute;
-        align-self: flex-end;
-
-    }
-    .navbar__list {
-        flex-direction: column;
-    }
-
-    .navbar__list--hide {
-        display: none;
-    }
-    
-    
-  } */
