@@ -1,0 +1,45 @@
+/* .navbar {
+    display: flex;
+    background-color: lightpink;
+}
+
+.navbar__logo {
+    background-color: lightgreen;
+}
+
+.navbar__toggle {
+    display: none;
+}
+
+.navbar__list {
+    display: flex;
+    background-color: red;
+}
+
+
+
+
+@media (max-width: 768px) {
+  
+    .navbar {
+       flex-direction: column; 
+       background-color: lightpink;
+    }
+
+    .navbar__toggle {
+        display: initial;
+        cursor: pointer;
+        position: absolute;
+        align-self: flex-end;
+
+    }
+    .navbar__list {
+        flex-direction: column;
+    }
+
+    .navbar__list--hide {
+        display: none;
+    }
+    
+    
+  } */
