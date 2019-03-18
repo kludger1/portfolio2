@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  padding: .5rem;
+}
+
+.navbar-container {
+  background-color: rgba(0, 0, 0, 0.603);
+  padding: 1rem;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  color: #eee;
+}
+
+.navbar__logo {
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 30%;
+}
+
+.navbar__logo:hover {
+  color: #fcfc17;
+}
+
+.navbar__toggle {
+  display: none;
+}
+
+.navbar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+.navbar__list--item {
+  font-size: 1.2rem;
+  color: #eee;
+}
+
+.navbar__list--item:hover {
+  color: #fcfc17;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar__toggle {
+    display: initial;
+    cursor: pointer;
+    position: absolute;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .navbar__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar__list--hide {
+    display: none;
+  }
+}
+
+#home {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.67)), color-stop(transparent), to(rgba(0, 0, 0, 0.67))), url("../../images/galaxy2-min.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.67), transparent, rgba(0, 0, 0, 0.67)), url("../../images/galaxy2-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

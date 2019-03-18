@@ -26,8 +26,5 @@
   "bugs": {
     "url": "https://github.com/kludger1/portfolio/issues"
   },
-  "homepage": "https://github.com/kludger1/portfolio#readme",
-  "devDependencies": {
-    "node-sass": "^4.11.0"
-  }
+  "homepage": "https://github.com/kludger1/portfolio#readme"
 }
