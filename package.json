@@ -1,0 +1,33 @@
+{
+  "name": "katsspace-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for job search",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kludger1/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "fullstack",
+    "webdeveloper",
+    "webdev",
+    "frontend",
+    "backend",
+    "database",
+    "katsspace",
+    "code"
+  ],
+  "author": "Katleen Ludger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kludger1/portfolio/issues"
+  },
+  "homepage": "https://github.com/kludger1/portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
