@@ -1,0 +1,90 @@
+.navbar-container {
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    color: $off-white;
+
+    &__logo {
+        font-size: 1.2rem;
+        cursor: pointer;
+        display: flex;
+        min-width: 30%;
+
+        &:hover {
+         color: $sub-color;
+        }
+    }
+
+    &__toggle {
+        display: none;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    &__list--item {
+        font-size: 1.2rem;
+        color: $off-white;
+
+       &:hover {
+            color: $sub-color;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: $breakpoint-tablet) {
+  
+    .navbar {
+       flex-direction: column; 
+
+       &__toggle {
+        display: initial;
+        cursor: pointer;
+        position: absolute;
+        align-self: flex-end;
+
+       }
+
+       &__list {
+        flex-direction: column;
+       }
+
+       &__list--hide {
+        display: none;
+    }
+
+    }
+
+ 
+ 
+
+
+    
+    
+  }
