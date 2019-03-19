@@ -507,6 +507,7 @@ a:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 auto;
+  padding-bottom: 3rem;
 }
 
 .project {
@@ -538,6 +539,11 @@ a:hover {
   color: #1d012a;
 }
 
+.btn__project:hover {
+  background-color: #2b2b2b;
+  color: #eee;
+}
+
 @media (max-width: 640px) {
   .projects-container {
     -webkit-box-orient: vertical;
@@ -558,5 +564,76 @@ a:hover {
   .project__info {
     width: auto;
   }
+}
+
+#contact {
+  min-height: 70vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.67)), color-stop(rgba(0, 0, 0, 0.329)), to(rgba(0, 0, 0, 0.67))), url("../../images/nicolas-thomas-547522-unsplash.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.67)), url("../../images/nicolas-thomas-547522-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-title {
+  margin: 0;
+  margin-left: 5rem;
+  padding: 1.5rem;
+  font-family: "poppins-medium", sans-serif;
+  color: #eee;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #fcfc17;
+}
+
+.contact__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__input--item {
+  border: none;
+  border-bottom: 0.15rem solid #d5d5d5;
+  margin: 1rem;
+  width: 45rem;
+  height: 4rem;
+  font-family: "poppins-regular", sans-serif;
+  color: #eee;
+  font-size: 1.1rem;
+  background-color: transparent;
+}
+
+.contact__input--item:hover {
+  border-color: #fcfc17;
+}
+
+.contact__input--item:focus {
+  border-color: #fcfc17;
+  outline: none;
+}
+
+.btn__contact {
+  border: 0.15rem solid #d5d5d5;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #eee;
+}
+
+.btn__contact:hover {
+  border-color: #fcfc17;
+  background-color: rgba(0, 0, 0, 0.527);
 }
 /*# sourceMappingURL=main.css.map */

@@ -16,6 +16,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    padding-bottom: 3rem;
     
 }
 
@@ -44,6 +45,11 @@
 .btn__project {
     &:visited {
         color: darken($link, 20%);
+    }
+    
+    &:hover {
+        background-color: lighten($off-black, 5%);
+        color: $off-white;
     }
 }
 

@@ -1,0 +1,64 @@
+#contact {
+    min-height:70vh;
+    background: linear-gradient(to right,  rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.67)),
+    url("../../images/nicolas-thomas-547522-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-title{
+    margin: 0;
+    margin-left: 5rem;
+    padding: 1.5rem;
+    font-family: "poppins-medium", sans-serif;
+    color: $off-white;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px $main-color;
+}
+
+.contact__input {
+    // background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--item{
+        // display: block;
+        border: none;
+        border-bottom: .15rem solid darken($off-white, 10%);
+        margin: 1rem;
+        width: 45rem;
+        height: 4rem;
+        font-family: "poppins-regular", sans-serif;
+        color: $off-white;
+        font-size: 1.1rem;
+        background-color: transparent;
+        // padding: .5rem;
+
+        &:hover {
+            border-color: $main-color;
+        }
+        &:focus {
+            border-color: $main-color;
+            outline: none;
+        }
+
+    }
+}
+
+.btn__contact {
+    border: .15rem solid darken($off-white, 10%);
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: $off-white;
+
+    &:hover {
+        border-color: $main-color;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+}
