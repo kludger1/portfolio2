@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1rem;
     min-height:60vh;
     background: linear-gradient(to right,  rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.356)),
     url("../../images/niketh-vellanki-252581-unsplash.jpg");
@@ -14,14 +15,13 @@
 
 .skills-title {
     margin: 2rem 0;
-    margin-left: 5rem;
     padding: 1.5rem;
     font-family: "poppins-medium", sans-serif;
     font-size: 2rem;
     text-align: center;
     letter-spacing: .5rem;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px $grey;
+    text-shadow: 4px 0px 2px $grey;
 }
 
 
@@ -35,14 +35,52 @@
 }
 
 .skills__list {
-    all: unset;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
     &--header {
         margin: 0;
         margin-bottom: 1rem;
         font-family: "poppins-medium", sans-serif;
+
+         &::after { 
+        content: "";
+        display: table;
+        padding: 1px 24px;
+        background-color: $main-color;
+
+        } 
+    }
+
+   
+
+    &--item {
+        font-family: "poppins-regular", sans-serif;
+        font-size: 1rem;
+        text-indent: .6rem;
+        line-height: 1.5rem;
+        &::before { 
+            content: "";
+            display: inline-table;
+            position: relative;
+            top: -7px;
+            left: -8px;
+            margin-right: .6rem;
+            padding: 1px 10px;
+            background-color: $main-color;
+    
+        }
     }
  }
 
 
+ @media (max-width: $breakpoint-tablet) {
+    .skills-container {
+        flex-direction: column;
+        margin-left: 15%;
+        text-align: left;
+    }
 
+    .skills__list {
+        margin-bottom: 2rem;
+    }
+ }

@@ -1,6 +1,6 @@
 #about {
     min-height: 70vh;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +54,7 @@
     }
 
     &__info--text {
+        font-family: "poppins-regular", sans-serif;
         line-height: 1.3;
         font-size: 1.03rem;
     }
