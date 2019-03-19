@@ -1,17 +1,20 @@
 #about {
-    background-color: $off-white;
     min-height: 70vh;
-    padding-bottom: 2.5rem
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
 .about-title {
     margin: 0;
-    margin-left: 2.5rem;
+    margin-left: 5rem;
     padding: 1.5rem;
     font-family: "poppins-medium", sans-serif;
     font-size: 2rem;
     text-align: center;
+    letter-spacing: .5rem;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px $grey;
     
@@ -26,16 +29,24 @@
     max-width: 930px;
 
     &__div {
-        border: .5rem solid $off-black;
+        // border: .5rem solid darken($link, 7%);
         border-radius: 5%;
     }
 
     &__div--img {
         width: 20rem;
         border-radius: 5%;
-        position: relative;
-        top: -2rem;
-        left: 2rem;
+        // position: relative;
+        // top: -2rem;
+        // left: 2rem;
+        box-shadow: -3px 3px 5px 5px #0000006b;
+        transition: .1s;
+
+        // &:hover {
+        //     top: 0;
+        //     left: 0;
+        //     box-shadow: none;
+        // }
     }
 
     &__info {
@@ -71,6 +82,10 @@
 
 
 @media (max-width: $breakpoint-tablet) {
+
+    .about-title {
+        margin: 0;
+    }
 
     .about-content {
         flex-direction: column;

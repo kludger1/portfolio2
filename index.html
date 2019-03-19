@@ -25,13 +25,14 @@
         <div class="navbar-container">
             <nav class="navbar">
                 <div class="navbar__logo">
-                    <a href="#home"><img class="navbar__logo--img" src="./images/katsspace-logo-white.png" alt="katsspace"></a> 
+                    <a href="#home"><img class="navbar__logo--img" src="./images/katsspace-logo-white.png"
+                            alt="katsspace"></a>
                 </div>
                 <div class="navbar__toggle">
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul class="navbar__list navbar__list--hide">
-                    <li><a href="#" class="navbar__list--item">About</a></li>
+                    <li><a href="#about" class="navbar__list--item">About</a></li>
                     <li><a href="#" class="navbar__list--item">Skills</a></li>
                     <li><a href="#" class="navbar__list--item">Projects</a></li>
                     <li><a href="#" class="navbar__list--item">Contact</a></li>
@@ -48,7 +49,7 @@
                     <span class="home__my-info--job-separator">|</span>
                     <span>Front-End & Back-End</span>
                 </p>
-                <a href="#" class="btn btn__home">More About Me <i class="fas fa-chevron-down"></i></a>
+                <a href="#about" class="btn btn__home">More About Me <i class="fas fa-chevron-down"></i></a>
             </div>
             <ul class="home__social">
                 <li><a class="home__social--item" href="#"><i class="fab fa-linkedin"></i></a></li>
@@ -105,26 +106,60 @@
     <section id="skills">
         <h1 class="skills-title">Skills</h1>
         <div class="skills-container">
-            <div class="skills__list">
-                <h3 class="skills__list--title">Html</h3>
-                <div class="bar bar1">85</div>
-                <h3 class="skills__list--title">CSS</h3>
-                <div class="bar bar1">95</div>
-                <h3 class="skills__list--title">JavaScript</h3>
-                <div class="bar bar1">90</div>
-                <h3 class="skills__list--title">Jquery</h3>
-                <div class="bar bar1">80</div>
-            </div>
-            <div class="skills__list">
-                <h3 class="skills__list--title">React</h3>
-                <div class="bar bar1">90</div>
-                <h3 class="skills__list--title">Node/Express</h3>
-                <div class="bar bar1">80</div>
-                <h3 class="skills__list--title">PHP</h3>
-                <div class="bar bar1">70</div>
-                <h3 class="skills__list--title">MySql</h3>
-                <div class="bar bar1">75</div>
-            </div>
+
+            <ul class="skills__list skills__list-main">
+                <h3 class="skills__list--header">Front-End</h3>
+                <li class="skills__list-main--item">HTML5</li>
+                <li class="skills__list-main--item">CSS
+
+                    <ul class="skills__list-sub">
+                        <li class="skills__list-sub--item">flex-box</li>
+                        <li class="skills__list-sub--item">grid</li>
+                    </ul>
+
+                </li>
+                <li class="skills__list-main--item">JavaScript
+                    <ul class="skills__list-sub">
+                        <li class="skills__list-sub--item">Jquery</li>
+                        <li class="skills__list-sub--item">React</li>
+                    </ul>
+                </li>
+                <li class="skills__list-main--item">WordPress
+                    <ul class="skills__list-sub">
+                        <li>Elementor</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="skills__list skills__list-main">
+                    <h3 class="skills__list--header">Server-Side</h3>
+                <li class="skills__list-main--item">Nodejs
+                <li class="skills__list-sub--item">Express</li>
+                </li>
+                <li class="skills__list-sub--item">PHP</li>
+            </ul>
+
+            <ul class="skills__list skills__list-main">
+                    <h3 class="skills__list--header">Data-Base</h3>
+                <li class="skills__list-main--item">MySql</li>
+                <li class="skills__list-sub--item">MongoDB</li>
+            </ul>
+
+            <ul class="skills__list skills__list-main">
+                    <h3 class="skills__list--header">Other</h3>
+                <li class="skills__list-main--item">Npm/Pm2</li>
+                <li class="skills__list-sub--item">Git</li>
+            </ul>
+
+        </div>
+        <div class="skills__container--want-to-learn">
+            <ul class="skills__list">
+                    <h3 class="skills__list--header">Want to learn</h3>
+            <li>Python</li>
+            <li>Swift</li>
+        </ul>
+        </div>
+        
         </div>
 
     </section>

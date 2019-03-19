@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "lora-regular", serif;
+  background-color: #eee;
 }
 
 body ul {
@@ -276,18 +277,28 @@ a:hover {
 }
 
 #about {
-  background-color: #eee;
   min-height: 70vh;
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-title {
   margin: 0;
-  margin-left: 2.5rem;
+  margin-left: 5rem;
   padding: 1.5rem;
   font-family: "poppins-medium", sans-serif;
   font-size: 2rem;
   text-align: center;
+  letter-spacing: .5rem;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px #313131;
 }
@@ -305,16 +316,16 @@ a:hover {
 }
 
 .about-content__div {
-  border: 0.5rem solid #1e1e1e;
   border-radius: 5%;
 }
 
 .about-content__div--img {
   width: 20rem;
   border-radius: 5%;
-  position: relative;
-  top: -2rem;
-  left: 2rem;
+  -webkit-box-shadow: -3px 3px 5px 5px #0000006b;
+          box-shadow: -3px 3px 5px 5px #0000006b;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
 .about-content__info {
@@ -343,6 +354,9 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .about-title {
+    margin: 0;
+  }
   .about-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -358,5 +372,60 @@ a:hover {
   .about-content__info {
     text-align: center;
   }
+}
+
+#skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 60vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.356)), to(rgba(0, 0, 0, 0.356))), url("../../images/niketh-vellanki-252581-unsplash.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.356)), url("../../images/niketh-vellanki-252581-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+}
+
+.skills-title {
+  margin: 2rem 0;
+  margin-left: 5rem;
+  padding: 1.5rem;
+  font-family: "poppins-medium", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #313131;
+}
+
+.skills-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 930px;
+}
+
+.skills__list {
+  all: unset;
+  font-size: 1.5rem;
+}
+
+.skills__list--header {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-family: "poppins-medium", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
