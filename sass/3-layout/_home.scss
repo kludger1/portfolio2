@@ -5,4 +5,141 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+
+
+.home__my-info {
+    // background-color: pink;
+    &--greeting {
+        margin: 0;
+        font-family: "poppins-bold", sans-serif;
+        color: $main-color;
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+        line-height: 1.565;
+        text-shadow: 0 0 6px #00000033;
+    }
+
+    &--name {
+        margin-top: 0;
+        margin-bottom: .6rem;
+        font-family: "poppins-medium", sans-serif;
+        color: $off-white;
+        font-size: 5.5rem;
+        line-height: 1.071;
+        text-shadow: 0 0 20px #00000080;
+        
+    }
+
+    &--job {
+        color: $off-white;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        line-height: 2.4rem;
+        text-shadow: 0 0 6px #00000033;
+
+        &-separator {
+           color: $off-black;
+        }
+    }
+}
+
+.btn__home {
+    margin-top: .6rem;
+    padding: 1.5rem 2rem;
+    border: .25rem solid #1a1a1a;
+    height: 6rem;
+    font-family: "poppins-bold", sans-serif;
+    color: $off-white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.20rem;
+    line-height: 5.4rem;
+
+    &:hover {
+        border-color: darken($main-color, 10%);
+    }
+}
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10rem;
+    min-height: 30rem;
+    text-align: center;
+    // background-color: darkorchid;
+}
+
+
+
+
+
+
+
+
+
+.home__social {
+    display: flex;
+    justify-content: center;
+    font-family: "lora-regular", serif;
+    font-size: 2rem;
+    
+    &--item {
+        margin: 0 20px;
+        color: $off-white;
+
+        &:hover {
+            color: $main-color;
+        }
+    }
+
+}
+
+// @media (max-width: $breakpoint-tablet) {
+
+
+  
+
+// }
+@media (max-width: $breakpoint-moble) {
+
+    .home__my-info {
+
+        &--greeting {
+            font-size: 1.4rem;
+        }
+        &--name {
+            font-size: 3.5rem;
+        }
+            
+        &--job {
+            font-size: 1rem;
+            &-separator {
+                display: none;
+            }
+        }
+    }
+
+    .home-container{
+        margin-top: 3.5rem;
+
+      
+    }
+    
+    .btn__home {
+        font-size: .8rem;
+    }
+    
+    .home__social {
+        &--item {
+            font-size: 1.7rem;
+        }
+    }
+  
+
+}
+

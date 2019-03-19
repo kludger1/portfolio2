@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "lora-regular", serif;
 }
 
 body ul {
@@ -14,8 +15,17 @@ a {
 }
 
 .btn {
-  cursor: pointer;
   padding: .5rem;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+a:hover {
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
 .navbar-container {
@@ -33,20 +43,12 @@ a {
   margin: 0 auto;
   width: 100%;
   max-width: 900px;
+  font-family: "poppins-medium", sans-serif;
   color: #eee;
 }
 
-.navbar__logo {
-  font-size: 1.2rem;
-  cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-width: 30%;
-}
-
-.navbar__logo:hover {
-  color: #fcfc17;
+.navbar__logo--img {
+  width: 8.5rem;
 }
 
 .navbar__toggle {
@@ -59,12 +61,16 @@ a {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 50%;
 }
 
 .navbar__list--item {
-  font-size: 1.2rem;
   color: #eee;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .navbar__list--item:hover {
@@ -80,16 +86,25 @@ a {
   }
   .navbar__toggle {
     display: initial;
-    cursor: pointer;
-    position: absolute;
     -ms-flex-item-align: end;
         align-self: flex-end;
+    position: absolute;
+    top: 17px;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  .navbar__toggle:hover {
+    color: #fcfc17;
   }
   .navbar__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 15rem;
   }
   .navbar__list--hide {
     display: none;
@@ -103,5 +118,116 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.home__my-info--greeting {
+  margin: 0;
+  font-family: "poppins-bold", sans-serif;
+  color: #fcfc17;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  line-height: 1.565;
+  text-shadow: 0 0 6px #00000033;
+}
+
+.home__my-info--name {
+  margin-top: 0;
+  margin-bottom: .6rem;
+  font-family: "poppins-medium", sans-serif;
+  color: #eee;
+  font-size: 5.5rem;
+  line-height: 1.071;
+  text-shadow: 0 0 20px #00000080;
+}
+
+.home__my-info--job {
+  color: #eee;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  line-height: 2.4rem;
+  text-shadow: 0 0 6px #00000033;
+}
+
+.home__my-info--job-separator {
+  color: #1e1e1e;
+}
+
+.btn__home {
+  margin-top: .6rem;
+  padding: 1.5rem 2rem;
+  border: .25rem solid #1a1a1a;
+  height: 6rem;
+  font-family: "poppins-bold", sans-serif;
+  color: #eee;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.20rem;
+  line-height: 5.4rem;
+}
+
+.btn__home:hover {
+  border-color: #dddd03;
+}
+
+.home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10rem;
+  min-height: 30rem;
+  text-align: center;
+}
+
+.home__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "lora-regular", serif;
+  font-size: 2rem;
+}
+
+.home__social--item {
+  margin: 0 20px;
+  color: #eee;
+}
+
+.home__social--item:hover {
+  color: #fcfc17;
+}
+
+@media (max-width: 640px) {
+  .home__my-info--greeting {
+    font-size: 1.4rem;
+  }
+  .home__my-info--name {
+    font-size: 3.5rem;
+  }
+  .home__my-info--job {
+    font-size: 1rem;
+  }
+  .home__my-info--job-separator {
+    display: none;
+  }
+  .home-container {
+    margin-top: 3.5rem;
+  }
+  .btn__home {
+    font-size: .8rem;
+  }
+  .home__social--item {
+    font-size: 1.7rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
