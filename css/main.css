@@ -116,8 +116,8 @@ a:hover {
 
 #home {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.67)), color-stop(transparent), to(rgba(0, 0, 0, 0.67))), url("../../images/galaxy2-min.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.67), transparent, rgba(0, 0, 0, 0.67)), url("../../images/galaxy2-min.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.67)), color-stop(transparent), to(rgba(0, 0, 0, 0.67))), url("../../images/portfolio/galaxy2-min.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.67), transparent, rgba(0, 0, 0, 0.67)), url("../../images/portfolio/galaxy2-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -402,8 +402,8 @@ a:hover {
           align-items: center;
   padding-bottom: 1rem;
   min-height: 60vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.356)), to(rgba(0, 0, 0, 0.356))), url("../../images/niketh-vellanki-252581-unsplash.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.356)), url("../../images/niketh-vellanki-252581-unsplash.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.356)), to(rgba(0, 0, 0, 0.356))), url("../../images/portfolio/niketh-vellanki-252581-unsplash.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.356)), url("../../images/portfolio/niketh-vellanki-252581-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -568,8 +568,8 @@ a:hover {
 
 #contact {
   min-height: 70vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.67)), color-stop(rgba(0, 0, 0, 0.329)), to(rgba(0, 0, 0, 0.67))), url("../../images/nicolas-thomas-547522-unsplash.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.67)), url("../../images/nicolas-thomas-547522-unsplash.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.67)), color-stop(rgba(0, 0, 0, 0.329)), to(rgba(0, 0, 0, 0.67))), url("../../images/portfolio/nicolas-thomas-547522-unsplash.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.67)), url("../../images/portfolio/nicolas-thomas-547522-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
