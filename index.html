@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,500,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
     <!-- <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/home.css">
@@ -17,190 +23,282 @@
     <link rel="stylesheet" href="./css/projects.css">
     <link rel="stylesheet" href="./css/contact.css"> -->
     <title>Katleens | Portfolio</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header id="home">
-        <div class="navbar-container">
-            <nav class="navbar">
-                <div class="navbar__logo">
-                    <a href="#"><img class="navbar__logo--img" src="./images/portfolio/katsspace-logo-white.png"
-                            alt="katsspace"></a>
-                </div>
-                <div class="navbar__toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <ul class="navbar__list navbar__list--hide">
-                    <li><a href="#about" class="navbar__list--item">About</a></li>
-                    <li><a href="#skills" class="navbar__list--item">Skills</a></li>
-                    <li><a href="#projects" class="navbar__list--item">Projects</a></li>
-                    <li><a href="#contact" class="navbar__list--item">Contact</a></li>
-                </ul>
-
-            </nav>
+      <div class="navbar-container">
+        <nav class="navbar">
+          <div class="navbar__logo">
+            <a href="#"
+              ><img
+                class="navbar__logo--img"
+                src="./images/logo/logo-white.svg"
+                alt="katsspace"
+            /></a>
+          </div>
+          <div class="navbar__toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="navbar__list navbar__list--hide">
+            <li><a href="#about" class="navbar__list--item">About</a></li>
+            <li><a href="#skills" class="navbar__list--item">Skills</a></li>
+            <li><a href="#projects" class="navbar__list--item">Projects</a></li>
+            <li><a href="#contact" class="navbar__list--item">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="home-container">
+        <div class="home__my-info">
+          <h5 class="home__my-info--greeting">Hello World</h5>
+          <h1 class="home__my-info--name">I'm Katleen Ludger.</h1>
+          <p class="home__my-info--job">
+            <span class="home__my-info--job1"> Full Stack Web Developer</span>
+            <span>Front-End & Back-End</span>
+          </p>
+          <a href="#about" class="btn btn__home"
+            >More About Me <i class="fas fa-chevron-down"></i
+          ></a>
         </div>
-        <div class="home-container">
-            <div class="home__my-info">
-                <h5 class="home__my-info--greeting">Hello World</h5>
-                <h1 class="home__my-info--name">I'm Katleen Ludger.</h1>
-                <p class="home__my-info--job">
-                    <span class="home__my-info--job1"> Full Stack Web Developer</span>
-                    <span>Front-End & Back-End</span>
-                </p>
-                <a href="#about" class="btn btn__home">More About Me <i class="fas fa-chevron-down"></i></a>
-            </div>
-            <ul class="home__social">
-                <li><a target="_blank" class="home__social--item" href="https://www.linkedin.com/in/katleen-ludger-9a1b79173"><i class="fab fa-linkedin"></i></a></li>
-                <li><a target="_blank" class="home__social--item" href="https://github.com/kludger1"><i class="fab fa-github"></i></a></li>
-                <li><a target="_blank" class="home__social--item" href="https://www.instagram.com/kats.space/"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-        </div>
+        <ul class="home__social">
+          <li>
+            <a
+              target="_blank"
+              class="home__social--item"
+              href="https://www.linkedin.com/in/katleen-ludger-9a1b79173/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              class="home__social--item"
+              href="https://github.com/kludger1"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              class="home__social--item"
+              href="https://www.instagram.com/katsspace_/?hl=en"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </header>
 
-
-
     <section id="about">
-        <h1 class="about-title">About</h1>
-        <div class="about-content">
-            <div class="about-content__div">
-                <img class="about-content__div--img" src="./images/portfolio/IMG_4047.jpg" alt="Picture of Katleen">
-            </div>
-            <div class="about-content__info">
-                <p class="about-content__info--text about-content__info--text1">
-                    I'm Kat and I am full stack developer. I am a very passionate about web development. Ive been learning code for 9 months intensely now and ive learn a great deal of knowledge during that time. 
-                </p>
-                <p class="about-content__info--text about-content__info--text2">
-                    I am able to build a Website from the ground up from concept, navigation, layout and programming, I can write well-designed, testable and efficient code using current best practices in Web development.
-                </p>
-                <p class="about-content__info--text about-content__info--text3">
-                    I have excellent communication and problem-solving skills. I'm able to focus on projects, develop strategies and meet or exceed deadlines.
-                </p>
-                <div class="about-content__info--btns">
-                    <a href="#" class="btn btn__about">Download Resume</a>
-                    <a href="#" class="btn btn__about">Hire Me</a>
-                </div>
-
-            </div>
+      <h1 class="about-title">About</h1>
+      <div class="about-content">
+        <div class="about-content__div">
+          <img
+            class="about-content__div--img"
+            src="./images/about-img.png"
+            alt="Picture of Katleen"
+          />
         </div>
-
+        <div class="about-content__info">
+          <p class="about-content__info--text about-content__info--text1">
+            I'm Kat and I am full stack developer. I am a very passionate about
+            web development. Ive been learning code for 9 months intensely now
+            and ive learn a great deal of knowledge during that time.
+          </p>
+          <p class="about-content__info--text about-content__info--text2">
+            I am able to build a Website from the ground up from concept,
+            navigation, layout and programming, I can write well-designed,
+            testable and efficient code using current best practices in Web
+            development.
+          </p>
+          <p class="about-content__info--text about-content__info--text3">
+            I have excellent communication and problem-solving skills. I'm able
+            to focus on projects, develop strategies and meet or exceed
+            deadlines.
+          </p>
+          <div class="about-content__info--btns">
+            <a
+              target="_blank"
+              href="./resume/katleens-resume.pdf"
+              class="btn btn__about"
+              >Download Resume</a
+            >
+            <a href="#contact" class="btn btn__about">Hire Me</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="skills">
-        <h1 class="skills-title">Skills</h1>
-        <div class="skills-container">
-
-            <ul class="skills__list ">
-                <h3 class="skills__list--header">Front-End</h3>
-                <li class="skills__list--item">HTML5</li>
-                <li class="skills__list--item">CSS (SCSS, Flex-box, Grid)</li>
-                <li class="skills__list--item">JavaScript (Jquery, React)</li>
-                <li class="skills__list--item">WordPress (Elementor)</li>
-            </ul>
-
-            <ul class="skills__list">
-                    <h3 class="skills__list--header">Server-Side</h3>
-                <li class="skills__list--item">Nodejs (Express)</li>
-                <li class="skills__list--item">PHP</li>
-            </ul>
-
-            <ul class="skills__list">
-                    <h3 class="skills__list--header">Data-Base</h3>
-                <li class="skills__list--item">MySql</li>
-                <li class="skills__list--item">MongoDB</li>
-            </ul>
-
-            <ul class="skills__list">
-                    <h3 class="skills__list--header">Other</h3>
-                <li class="skills__list--item">Npm (Pm2, etc)</li>
-                <li class="skills__list--item">Git</li>
-            </ul>
-
-        </div>
-        <div class="skills__container--want-to-learn">
-            <ul class="skills__list">
-                    <h3 class="skills__list--header">Want to learn</h3>
-            <li class="skills__list--item">Python</li>
-            <li class="skills__list--item">Swift</li>
+      <h1 class="skills-title">Skills</h1>
+      <div class="skills-container">
+        <ul class="skills__list ">
+          <h3 class="skills__list--header">Front-End</h3>
+          <li class="skills__list--item">HTML5</li>
+          <li class="skills__list--item">CSS (SCSS, Flex-box, Grid)</li>
+          <li class="skills__list--item">
+            JavaScript (Jquery, <strong>React</strong> )
+          </li>
+          <li class="skills__list--item">WordPress (Elementor)</li>
         </ul>
-        </div>
-        
-        </div>
 
+        <ul class="skills__list">
+          <h3 class="skills__list--header">Server-Side</h3>
+          <li class="skills__list--item">Nodejs (Express)</li>
+          <li class="skills__list--item">PHP</li>
+        </ul>
+
+        <ul class="skills__list">
+          <h3 class="skills__list--header">Data-Base</h3>
+          <li class="skills__list--item">MySql</li>
+          <li class="skills__list--item">MongoDB</li>
+        </ul>
+
+        <ul class="skills__list">
+          <h3 class="skills__list--header">Other</h3>
+          <li class="skills__list--item">Npm (Pm2, etc)</li>
+          <li class="skills__list--item">Git</li>
+          <li class="skills__list--item">Adobe Photoshop</li>
+          <li class="skills__list--item">Adobe XD CC</li>
+        </ul>
+      </div>
+      <div class="skills__container--want-to-learn">
+        <ul class="skills__list">
+          <h3 class="skills__list--header">Want to learn</h3>
+          <li class="skills__list--item">Python</li>
+          <li class="skills__list--item">Swift</li>
+        </ul>
+      </div>
     </section>
 
     <section id="projects">
-        <h1 class="projects-title">Projects</h1>
-        <div class="projects-container">
-            <div class="project project__1">
-                <div class="project__img">
-                    <img class="project__img--item" src="./images/portfolio/portfolio-img/wikiF.png" alt="#">
-                </div>
-                <div class="project__info">
-                    <h3 class="project__info--title">Wikipedia Search</h3>
-                    <p class="project__info--description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo obcaecati amet et natus,
-                        similique alias maiores laudantium nemo officia.
-                    </p>
-                    <div class="project__btns">
-                        <a target="_blank" class="btn btn__project" href="http://kludger.techlaunch.online/projects/wikipedia-app">Demo</a>
-                        <a target="_blank" class="btn btn__project" href="https://github.com/kludger1/wikipedia-app.git">View Code</a>
-
-                    </div>
-                </div>
+      <h1 class="projects-title">Projects</h1>
+      <div class="projects-container">
+        <div class="project project__1">
+          <div class="project__img">
+            <img
+              class="project__img--item"
+              src="./images/project-images/gradient-gen.png"
+              alt="#"
+            />
+          </div>
+          <div class="project__info">
+            <h3 class="project__info--title">Wikipedia Search</h3>
+            <p class="project__info--description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Explicabo obcaecati amet et natus, similique alias maiores
+              laudantium nemo officia.
+            </p>
+            <div class="project__btns">
+              <a
+                target="_blank"
+                class="btn btn__project"
+                href="http://kludger.techlaunch.online/projects/wikipedia-app"
+                >Demo</a
+              >
+              <a
+                target="_blank"
+                class="btn btn__project"
+                href="https://github.com/kludger1/wikipedia-app.git"
+                >View Code</a
+              >
             </div>
-            <div class="project project__2">
-                <div class="project__img">
-                    <img class="project__img--item" src="./images/portfolio/portfolio-img/pianoF.png" alt="#">
-                </div>
-                <div class="project__info">
-                    <h3 class="project__info--title">Piano</h3>
-                    <p class="project__info--description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo obcaecati amet et natus,
-                        similique alias maiores laudantium nemo officia.
-                    </p>
-                    <div class="project__btns">
-                        <a target="_blank" class="btn btn__project" href="http://kludger.techlaunch.online/projects/music-boxes">Demo</a>
-                        <a target="_blank" class="btn btn__project" href="https://github.com/kludger1/music-boxes.git">View Code</a>
-
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="project project__2">
+          <div class="project__img">
+            <img
+              class="project__img--item"
+              src="./images/project-images/chatt-app.png"
+              alt="#"
+            />
+          </div>
+          <div class="project__info">
+            <h3 class="project__info--title">Piano</h3>
+            <p class="project__info--description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Explicabo obcaecati amet et natus, similique alias maiores
+              laudantium nemo officia.
+            </p>
+            <div class="project__btns">
+              <a
+                target="_blank"
+                class="btn btn__project"
+                href="http://kludger.techlaunch.online/projects/music-boxes"
+                >Demo</a
+              >
+              <a
+                target="_blank"
+                class="btn btn__project"
+                href="https://github.com/kludger1/music-boxes.git"
+                >View Code</a
+              >
             </div>
-            <div class="project project__3">
-                <div class="project__img">
-                    <img class="project__img--item" src="./images/portfolio/portfolio-img/flappy-birdF.png" alt="#">
-                </div>
-                <div class="project__info">
-                    <h3 class="project__info--title">Flappy Bird Remake</h3>
-                    <p class="project__info--description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo obcaecati amet et natus,
-                        similique alias maiores laudantium nemo officia.
-                    </p>
-                    <div class="project__btns">
-                        <a target="_blank" class="btn btn__project" href="http://kludger.techlaunch.online/projects/flappy-bird">Demo</a>
-                        <a target="_blank" class="btn btn__project" href="https://github.com/kludger1/flappy-bird.git">View Code</a>
-
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="project project__3">
+          <div class="project__img">
+            <img
+              class="project__img--item"
+              src="./images/project-images/flappy-birdF.png"
+              alt="#"
+            />
+          </div>
+          <div class="project__info">
+            <h3 class="project__info--title">Flappy Bird Remake</h3>
+            <p class="project__info--description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Explicabo obcaecati amet et natus, similique alias maiores
+              laudantium nemo officia.
+            </p>
+            <div class="project__btns">
+              <a
+                target="_blank"
+                class="btn btn__project"
+                href="http://kludger.techlaunch.online/projects/flappy-bird"
+                >Demo</a
+              >
+              <a
+                target="_blank"
+                class="btn btn__project"
+                href="https://github.com/kludger1/flappy-bird.git"
+                >View Code</a
+              >
             </div>
-            <div class="project project__4">
-                <div class="project__img">
-                    <img class="project__img--item" src="./images/portfolio/portfolio-img/spaceF.png" alt="#">
-                </div>
-                <div class="project__info">
-                    <h3 class="project__info--title">Space Battle</h3>
-                    <p class="project__info--description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo obcaecati amet et natus,
-                        similique alias maiores laudantium nemo officia.
-                    </p>
-                    <div class="project__btns">
-                        <a target="_blank" class="btn btn__project" href="http://kludger.techlaunch.online/projects/war-game/public/">Demo</a>
-                        <a target="_blank" class="btn btn__project" href="https://github.com/kludger1/war-game.git">View Code</a>
-
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="project project__4">
+          <div class="project__img">
+            <img
+              class="project__img--item"
+              src="./images/project-images/rbg-game.png"
+              alt="#"
+            />
+          </div>
+          <div class="project__info">
+            <h3 class="project__info--title">Space Battle</h3>
+            <p class="project__info--description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Explicabo obcaecati amet et natus, similique alias maiores
+              laudantium nemo officia.
+            </p>
+            <div class="project__btns">
+              <a
+                target="_blank"
+                class="btn btn__project"
+                href="http://kludger.techlaunch.online/projects/war-game/public/"
+                >Demo</a
+              >
+              <a
+                target="_blank"
+                class="btn btn__project"
+                href="https://github.com/kludger1/war-game.git"
+                >View Code</a
+              >
             </div>
-            <!-- <div class="project project__5">
+          </div>
+        </div>
+        <!-- <div class="project project__5">
                 <div class="project__img">
                     <img class="project__img--item" src="#" alt="#">
                 </div>
@@ -217,30 +315,54 @@
                     </div>
                 </div>
             </div> -->
-        </div>
+      </div>
     </section>
 
     <section id="contact">
-        <h1 class="contact-title">Contact</h1>
-        <div class="contact-container">
-            <div class="contact__input">
-                <input class="contact__input--item contact__input--name" type="text" placeholder="Name">
-                <input class="contact__input--item contact__input--email" type="text" placeholder="Email">
-                <input class="contact__input--item contact__input--subject" type="text" placeholder="Subject">
-                <input class="contact__input--item contact__input--message" type="text" placeholder="Message">
-                <a class="btn btn__contact" href="#">Send Message</a>
-            </div>
-            <!-- <div class="contact__info">
+      <h1 class="contact-title">Contact</h1>
+      <div class="contact-container">
+        <form class="contact__input">
+          <input
+            class="contact__input--item contact__input--name contact__input--firstname"
+            type="text"
+            placeholder="Firstname"
+          />
+          <input
+            class="contact__input--item contact__input--name
+            contact__input--lastname"
+            type="text"
+            placeholder="Lastname"
+          />
+          <input
+            class="contact__input--item contact__input--email"
+            type="text"
+            placeholder="Email"
+          />
+          <input
+            class="contact__input--item contact__input--subject"
+            type="text"
+            placeholder="Subject"
+          />
+          <textarea
+            name="text"
+            class="contact__input--item contact__input--text"
+            cols="30"
+            rows="10"
+            placeholder="Message..."
+          ></textarea>
+          <input
+            class="btn btn__contact contact__input--submit"
+            type="submit"
+            value="Send Message"
+          />
+        </form>
+        <!-- <div class="contact__info">
                
             </div> -->
-        </div>
+      </div>
     </section>
 
-
-
-
-
     <script src="./js/main.js"></script>
-</body>
-
+    <script src="./js/contactForm.js"></script>
+  </body>
 </html>

@@ -1,66 +1,75 @@
 #contact {
-    min-height:70vh;
-    background: linear-gradient(to right,  rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.67)),
-    url("../../images/portfolio/nicolas-thomas-547522-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  min-height: 70vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.39),
+      rgba(0, 0, 0, 0.39)
+    ),
+    url('../../images/bg-imgs/contact-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.contact-title{
-    margin: 0;
-    margin-left: 5rem;
-    padding: 1.5rem;
-    font-family: "poppins-medium", sans-serif;
-    color: $off-white;
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: .5rem;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px $main-color;
+.contact-title {
+  margin: 0;
+  margin-left: 5rem;
+  padding: 1.5rem;
+  font-family: 'poppins-medium', sans-serif;
+  color: $off-white;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px $main-color;
 }
 
 .contact__input {
-    // background-color: pink;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  // background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+
+  &--item {
+    // display: block;
+    border: none;
+    border-bottom: 0.15rem solid darken($off-white, 10%);
     margin: 1rem;
+    width: 45rem;
+    max-width: 100%;
+    height: 4rem;
+    font-family: 'poppins-regular', sans-serif;
+    color: $off-white;
+    font-size: 1.1rem;
+    background-color: transparent;
+    // padding: .5rem;
 
-    &--item{
-        // display: block;
-        border: none;
-        border-bottom: .15rem solid darken($off-white, 10%);
-        margin: 1rem;
-        width: 45rem;
-        max-width: 100%;
-        height: 4rem;
-        font-family: "poppins-regular", sans-serif;
-        color: $off-white;
-        font-size: 1.1rem;
-        background-color: transparent;
-        // padding: .5rem;
-
-        &:hover {
-            border-color: $main-color;
-        }
-        &:focus {
-            border-color: $main-color;
-            outline: none;
-        }
-
+    &:hover {
+      border-color: $main-color;
     }
+    &:focus {
+      border-color: $main-color;
+      outline: none;
+    }
+  }
+
+  &--text {
+    height: 11rem;
+  }
 }
 
 .btn__contact {
-    border: .15rem solid darken($off-white, 10%);
-    margin: 2rem 0;
-    padding: 1rem;
-    font-size: 1.2rem;
-    color: $off-white;
+  border: 0.15rem solid darken($off-white, 10%);
+  background-color: darken($off-white, 10%);
+  margin: 2rem 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: $off-black;
 
-    &:hover {
-        border-color: $main-color;
-        background-color: rgba(0, 0, 0, 0.527);
-    }
+  &:hover {
+    color: $off-black;
+    background-color: darken($main-color, 10%);
+  }
 }

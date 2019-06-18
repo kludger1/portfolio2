@@ -1,204 +1,179 @@
 #home {
-    min-height:100vh;
-    background: linear-gradient(to right,  rgba(0, 0, 0, 0.67), transparent, rgba(0, 0, 0, 0.67)),
-    url("../../images/portfolio/galaxy2-min.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  min-height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.39),
+      transparent,
+      rgba(0, 0, 0, 0.39)
+    ),
+    url('../../images/bg-imgs/home-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .home__my-info {
-    // background-color: pink;
-    &--greeting {
-        margin: 0;
-        font-family: "poppins-bold", sans-serif;
-        color: $main-color;
-        font-size: 2.3rem;
-        text-transform: uppercase;
-        letter-spacing: .3rem;
-        line-height: 1.565;
-        text-shadow: 0 0 6px #00000033;
+  // background-color: pink;
+  &--greeting {
+    margin: 0;
+    font-family: 'poppins-bold', sans-serif;
+    color: $main-color;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    line-height: 1.565;
+    text-shadow: 0 0 6px #00000033;
+  }
+
+  &--name {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    font-family: 'poppins-medium', sans-serif;
+    color: $off-white;
+    font-size: 5.5rem;
+    line-height: 1.071;
+    text-shadow: 0 0 20px #00000080;
+  }
+
+  &--job {
+    color: $off-white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    line-height: 2.4rem;
+    text-shadow: 0 0 6px #00000033;
+
+    &1 {
+      margin-right: 1rem;
+      &::after {
+        content: '';
+        display: table-cell;
+        position: relative;
+        top: -6px;
+        left: 10.5px;
+        padding: 10px 1px;
+        background-color: darken($off-black, 10%);
+      }
     }
-
-    &--name {
-        margin-top: 0;
-        margin-bottom: .6rem;
-        font-family: "poppins-medium", sans-serif;
-        color: $off-white;
-        font-size: 5.5rem;
-        line-height: 1.071;
-        text-shadow: 0 0 20px #00000080;
-        
-    }
-
-    &--job {
-        color: $off-white;
-        font-size: 1.2rem;
-        text-transform: uppercase;
-        letter-spacing: .2rem;
-        line-height: 2.4rem;
-        text-shadow: 0 0 6px #00000033;
-
-        &1 {
-            margin-right: 1rem;
-            &::after {
-                content: "";
-                display: table-cell;
-                position: relative;
-                top: -6px;
-                left: 10.5px;
-                padding: 10px 1px;
-                background-color: darken($off-black, 10%);
-            }
-        }
-
-    
-    }
+  }
 }
 
 .btn__home {
-    margin-top: .6rem;
-    padding: 1.5rem 2rem;
-    border: .25rem solid #1a1a1a;
-    height: 6rem;
-    font-family: "poppins-bold", sans-serif;
-    color: $off-white;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.20rem;
-    line-height: 5.4rem;
+  margin-top: 0.6rem;
+  padding: 1.5rem 2rem;
+  border: 0.25rem solid #1a1a1a;
+  height: 6rem;
+  font-family: 'poppins-bold', sans-serif;
+  color: $off-white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  line-height: 5.4rem;
 
-    &:hover {
-        border-color: darken($main-color, 10%);
-    }
+  &:hover {
+    border-color: darken($main-color, 10%);
+  }
 }
-
 
 .home-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-top: 10rem;
-    min-height: 30rem;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-top: 10rem;
+  min-height: 30rem;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
 }
 
-
-
-
-
-
-
-
-
 .home__social {
-    display: flex;
-    justify-content: center;
-    font-family: "lora-regular", serif;
-    font-size: 2rem;
-    
-    &--item {
-        margin: 0 20px;
-        color: $off-white;
+  display: flex;
+  justify-content: center;
+  font-family: 'lora-regular', serif;
+  font-size: 3rem;
 
-        &:hover {
-            color: $main-color;
-        }
+  &--item {
+    margin: 0 20px;
+    color: $off-white;
+
+    &:hover {
+      color: $main-color;
     }
-
+  }
 }
 
 // @media (max-width: $breakpoint-tablet) {
 
-
-  
-
 // }
 @media (max-width: $breakpoint-tablet) {
-
-    .home__my-info {
-
-        &--greeting {
-            font-size: 2.4rem;
-        }
-        &--name {
-            font-size: 4.5rem;
-        }
-            
-        &--job {
-            font-size: 1rem;
-
-           
-        
-        }
+  .home__my-info {
+    &--greeting {
+      font-size: 2.4rem;
+    }
+    &--name {
+      font-size: 4.5rem;
     }
 
-    // .home-container{
-    //     margin-top: 3.5rem;
-
-      
-    // }
-    
-    .btn__home {
-        font-size: 1rem;
+    &--job {
+      font-size: 1rem;
     }
-    
-    .home__social {
-        &--item {
-            font-size: 2rem;
-        }
-    }
-  
+  }
 
+  // .home-container{
+  //     margin-top: 3.5rem;
+
+  // }
+
+  .btn__home {
+    font-size: 1rem;
+  }
+
+  .home__social {
+    &--item {
+      font-size: 2rem;
+    }
+  }
 }
 @media (max-width: $breakpoint-moble) {
-
-    .home__my-info {
-
-        &--greeting {
-            font-size: 1.4rem;
-        }
-        &--name {
-            font-size: 3.5rem;
-        }
-            
-        &--job {
-            display: flex;
-            flex-direction: column;
-            font-size: 1rem;
-            &1::after {
-                display: none;
-            }
-        }
+  .home__my-info {
+    &--greeting {
+      font-size: 1.4rem;
+    }
+    &--name {
+      font-size: 3.5rem;
     }
 
-    .home-container{
-        all: unset;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-top: 5rem;
-        height: 30rem;
-        text-align: center;
+    &--job {
+      display: flex;
+      flex-direction: column;
+      font-size: 1rem;
+      &1::after {
+        display: none;
+      }
     }
-    
-    .btn__home {
-        font-size: .8rem;
-    }
-    
-    .home__social {
-        margin-bottom: 1rem;
-        &--item {
-            font-size: 1.7rem;
-        }
-    }
-  
+  }
 
+  .home-container {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5rem;
+    height: 30rem;
+    text-align: center;
+  }
+
+  .btn__home {
+    font-size: 0.8rem;
+  }
+
+  .home__social {
+    margin-bottom: 1rem;
+    &--item {
+      font-size: 1.7rem;
+    }
+  }
 }
-

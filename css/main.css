@@ -32,7 +32,7 @@ a:hover {
 
 .navbar-container {
   background-color: rgba(0, 0, 0, 0.603);
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 .navbar {
@@ -45,12 +45,12 @@ a:hover {
   margin: 0 auto;
   width: 100%;
   max-width: 900px;
-  font-family: "poppins-medium", sans-serif;
+  font-family: 'poppins-medium', sans-serif;
   color: #eee;
 }
 
 .navbar__logo--img {
-  width: 8.5rem;
+  width: 3.5rem;
 }
 
 .navbar__toggle {
@@ -72,7 +72,7 @@ a:hover {
 
 .navbar__list--item {
   color: #eee;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
@@ -116,8 +116,8 @@ a:hover {
 
 #home {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.67)), color-stop(transparent), to(rgba(0, 0, 0, 0.67))), url("../../images/portfolio/galaxy2-min.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.67), transparent, rgba(0, 0, 0, 0.67)), url("../../images/portfolio/galaxy2-min.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.39)), color-stop(transparent), to(rgba(0, 0, 0, 0.39))), url("../../images/bg-imgs/home-bg.svg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.39), transparent, rgba(0, 0, 0, 0.39)), url("../../images/bg-imgs/home-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,19 +125,19 @@ a:hover {
 
 .home__my-info--greeting {
   margin: 0;
-  font-family: "poppins-bold", sans-serif;
+  font-family: 'poppins-bold', sans-serif;
   color: #fcfc17;
   font-size: 2.3rem;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   line-height: 1.565;
   text-shadow: 0 0 6px #00000033;
 }
 
 .home__my-info--name {
   margin-top: 0;
-  margin-bottom: .6rem;
-  font-family: "poppins-medium", sans-serif;
+  margin-bottom: 0.6rem;
+  font-family: 'poppins-medium', sans-serif;
   color: #eee;
   font-size: 5.5rem;
   line-height: 1.071;
@@ -148,7 +148,7 @@ a:hover {
   color: #eee;
   font-size: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   line-height: 2.4rem;
   text-shadow: 0 0 6px #00000033;
 }
@@ -158,7 +158,7 @@ a:hover {
 }
 
 .home__my-info--job1::after {
-  content: "";
+  content: '';
   display: table-cell;
   position: relative;
   top: -6px;
@@ -168,15 +168,15 @@ a:hover {
 }
 
 .btn__home {
-  margin-top: .6rem;
+  margin-top: 0.6rem;
   padding: 1.5rem 2rem;
-  border: .25rem solid #1a1a1a;
+  border: 0.25rem solid #1a1a1a;
   height: 6rem;
-  font-family: "poppins-bold", sans-serif;
+  font-family: 'poppins-bold', sans-serif;
   color: #eee;
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.20rem;
+  letter-spacing: 0.2rem;
   line-height: 5.4rem;
 }
 
@@ -213,8 +213,8 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "lora-regular", serif;
-  font-size: 2rem;
+  font-family: 'lora-regular', serif;
+  font-size: 3rem;
 }
 
 .home__social--item {
@@ -281,7 +281,7 @@ a:hover {
     text-align: center;
   }
   .btn__home {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .home__social {
     margin-bottom: 1rem;
@@ -310,12 +310,12 @@ a:hover {
   margin: 0;
   margin-left: 5rem;
   padding: 1.5rem;
-  font-family: "poppins-medium", sans-serif;
+  font-family: 'poppins-medium', sans-serif;
   font-size: 2rem;
   text-align: center;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px #313131;
+  text-shadow: 4px 0px 2px #313131;
 }
 
 .about-content {
@@ -335,12 +335,12 @@ a:hover {
 }
 
 .about-content__div--img {
-  width: 20rem;
+  width: 23rem;
   border-radius: 5%;
   -webkit-box-shadow: -3px 3px 5px 5px #0000006b;
           box-shadow: -3px 3px 5px 5px #0000006b;
-  -webkit-transition: .1s;
-  transition: .1s;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .about-content__info {
@@ -348,9 +348,9 @@ a:hover {
 }
 
 .about-content__info--text {
-  font-family: "poppins-regular", sans-serif;
+  font-family: 'poppins-regular', sans-serif;
   line-height: 1.3;
-  font-size: 1.03rem;
+  font-size: 1.4rem;
 }
 
 .about-content__info--btns {
@@ -358,7 +358,7 @@ a:hover {
 }
 
 .btn__about {
-  padding: .7rem;
+  padding: 0.7rem;
   font-size: 1.1rem;
   margin-right: 1rem;
 }
@@ -402,23 +402,19 @@ a:hover {
           align-items: center;
   padding-bottom: 1rem;
   min-height: 60vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.356)), to(rgba(0, 0, 0, 0.356))), url("../../images/portfolio/niketh-vellanki-252581-unsplash.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.356)), url("../../images/portfolio/niketh-vellanki-252581-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #383838;
   color: #eee;
 }
 
 .skills-title {
   margin: 2rem 0;
   padding: 1.5rem;
-  font-family: "poppins-medium", sans-serif;
+  font-family: 'poppins-medium', sans-serif;
   font-size: 2rem;
   text-align: center;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
-  text-shadow: 4px 0px 2px #313131;
+  text-shadow: 1px 1px 2px #fcfc17;
 }
 
 .skills-container {
@@ -441,30 +437,30 @@ a:hover {
 .skills__list--header {
   margin: 0;
   margin-bottom: 1rem;
-  font-family: "poppins-medium", sans-serif;
+  font-family: 'poppins-medium', sans-serif;
 }
 
 .skills__list--header::after {
-  content: "";
+  content: '';
   display: table;
   padding: 1px 24px;
   background-color: #fcfc17;
 }
 
 .skills__list--item {
-  font-family: "poppins-regular", sans-serif;
+  font-family: 'poppins-regular', sans-serif;
   font-size: 1rem;
-  text-indent: .6rem;
+  text-indent: 0.6rem;
   line-height: 1.5rem;
 }
 
 .skills__list--item::before {
-  content: "";
+  content: '';
   display: inline-table;
   position: relative;
   top: -7px;
   left: -8px;
-  margin-right: .6rem;
+  margin-right: 0.6rem;
   padding: 1px 10px;
   background-color: #fcfc17;
 }
@@ -486,15 +482,16 @@ a:hover {
 .projects-title {
   margin: 2rem 0;
   padding: 1.5rem;
-  font-family: "poppins-medium", sans-serif;
+  font-family: 'poppins-medium', sans-serif;
   font-size: 2rem;
   text-align: center;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
   text-shadow: 4px 0px 2px #313131;
 }
 
 .projects-container {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -511,7 +508,7 @@ a:hover {
 }
 
 .project {
-  margin: .5rem;
+  margin: 0.5rem;
   border: 0.2rem solid #1e1e1e;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -520,7 +517,7 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   min-width: 35rem;
-  margin: .5rem;
+  margin: 0.5rem;
   padding: 1rem;
   -webkit-box-shadow: 3px 2px 3px 1px #0000006b;
           box-shadow: 3px 2px 3px 1px #0000006b;
@@ -568,8 +565,9 @@ a:hover {
 
 #contact {
   min-height: 70vh;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.67)), color-stop(rgba(0, 0, 0, 0.329)), to(rgba(0, 0, 0, 0.67))), url("../../images/portfolio/nicolas-thomas-547522-unsplash.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.67)), url("../../images/portfolio/nicolas-thomas-547522-unsplash.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.39)), to(rgba(0, 0, 0, 0.39))), url("../../images/bg-imgs/contact-bg.svg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url("../../images/bg-imgs/contact-bg.svg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -578,11 +576,11 @@ a:hover {
   margin: 0;
   margin-left: 5rem;
   padding: 1.5rem;
-  font-family: "poppins-medium", sans-serif;
+  font-family: 'poppins-medium', sans-serif;
   color: #eee;
   font-size: 2rem;
   text-align: center;
-  letter-spacing: .5rem;
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px #fcfc17;
 }
@@ -611,7 +609,7 @@ a:hover {
   width: 45rem;
   max-width: 100%;
   height: 4rem;
-  font-family: "poppins-regular", sans-serif;
+  font-family: 'poppins-regular', sans-serif;
   color: #eee;
   font-size: 1.1rem;
   background-color: transparent;
@@ -626,16 +624,21 @@ a:hover {
   outline: none;
 }
 
+.contact__input--text {
+  height: 11rem;
+}
+
 .btn__contact {
   border: 0.15rem solid #d5d5d5;
+  background-color: #d5d5d5;
   margin: 2rem 0;
   padding: 1rem;
   font-size: 1.2rem;
-  color: #eee;
+  color: #1e1e1e;
 }
 
 .btn__contact:hover {
-  border-color: #fcfc17;
-  background-color: rgba(0, 0, 0, 0.527);
+  color: #1e1e1e;
+  background-color: #dddd03;
 }
 /*# sourceMappingURL=main.css.map */

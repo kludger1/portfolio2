@@ -1,73 +1,69 @@
 .projects-title {
-    margin: 2rem 0;
-    padding: 1.5rem;
-    font-family: "poppins-medium", sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: .5rem;
-    text-transform: uppercase;
-    text-shadow: 4px 0px 2px $grey;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  font-family: 'poppins-medium', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-shadow: 4px 0px 2px $grey;
 }
 
-
 .projects-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding-bottom: 3rem;
-    
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 3rem;
 }
 
 .project {
-    margin: .5rem;
-    border: .2rem solid $off-black;
-    display: flex;
-    align-items: center;
-    min-width: 35rem;
-    margin: .5rem;
-    padding: 1rem;
-    box-shadow: 3px 2px 3px 1px #0000006b;
+  margin: 0.5rem;
+  border: 0.2rem solid $off-black;
+  display: flex;
+  align-items: center;
+  min-width: 35rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  box-shadow: 3px 2px 3px 1px #0000006b;
 
+  &__img--item {
+    width: 15rem;
+    margin-right: 1.5rem;
+  }
 
-
-    &__img--item {
-        width: 15rem;
-        margin-right: 1.5rem;
-    }
-
-    &__info {
-        width: 20rem;
-    }
+  &__info {
+    width: 20rem;
+  }
 }
 
 .btn__project {
-    &:visited {
-        color: darken($link, 20%);
-    }
-    
-    &:hover {
-        background-color: lighten($off-black, 5%);
-        color: $off-white;
-    }
+  &:visited {
+    color: darken($link, 20%);
+  }
+
+  &:hover {
+    background-color: lighten($off-black, 5%);
+    color: $off-white;
+  }
 }
 
-
 @media (max-width: $breakpoint-moble) {
-    .projects-container {
-        flex-direction: column;
-    }
-    .project {
-        flex-direction: column;
-        min-width: 5rem;
+  .projects-container {
+    flex-direction: column;
+  }
+  .project {
+    flex-direction: column;
+    min-width: 5rem;
 
-        &__img--item {
-            margin: 0;
-        }
-
-        &__info {
-            width: auto;
-        }
+    &__img--item {
+      margin: 0;
     }
+
+    &__info {
+      width: auto;
+    }
+  }
 }
